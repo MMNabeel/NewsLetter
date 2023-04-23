@@ -37,7 +37,7 @@ app.post("/", function(req, res){
 
   const options = {
     method : "POST",
-    auth : "mirza:771050c2448e69396cea763e802bf038-us21"
+    auth : "Hahn ab-us21"
   }
 
   const request = https.request(url, options, function(response){
@@ -66,7 +66,4 @@ app.post("/failure", function(req, res){
 app.listen(3000,function(){
   console.log("Currently server is running on 3000 port: ");
 });
-//Api key
-//771050c2448e69396cea763e802bf038-us21
-//list ID
-//f6544eeebd
+
