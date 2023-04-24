@@ -31,8 +31,8 @@ app.post("/", function(req, res){
 
 
   const jsonData = JSON.stringify(data);
-  const url = "https://us21.api.mailchimp.com/3.0/lists/f6544eeebd";
-  // const url = "https://us21.api.mailchimp.com/3.0/ping/f6544eeebd"
+  const url = "https://com/3.0/lists/";
+  // const url = "https.m3.0/ping/f6544eeebd"
 
 
   const options = {
